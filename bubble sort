@@ -1,0 +1,33 @@
+#include<stdio.h>
+#include<conio.h>
+
+int main()
+{
+  int i,j,temp,a[5];
+  clrscr();
+  
+     for(i=0;i<5;i++)
+     {
+       printf("enter num=");
+       scanf("%d",& a[i]);
+     }
+     
+     for(j=0;j<5;j++);
+     {
+       if(a[i]<a[j])
+     {
+        tem=a[i];
+        a[i]=a[j];
+        a[j]=temp;
+    }
+      }
+       }
+    for(i=0;i<5;i++)
+    {
+       printf("%d",a[i],a[j])
+    }
+    
+    getch();
+    return 0;
+    
+    }
